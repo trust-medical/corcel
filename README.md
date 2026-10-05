@@ -8,6 +8,9 @@
 [![Test Coverage](https://codeclimate.com/github/corcel/corcel/badges/coverage.svg)](https://codeclimate.com/github/corcel/corcel/coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3dc8135eee70ae7da325/maintainability)](https://codeclimate.com/github/corcel/corcel/maintainability)
 
+> **trust-medical fork:** upstream の PR #659 を取り込み Laravel 13 に対応した fork です (Laravel 12 / 13 両対応、パッケージ名は `jgrossi/corcel` のまま)。
+> 上流 (corcel/corcel) が Laravel 13 対応版をリリースしたら、公式版へ戻してください。
+
 Corcel is a collection of PHP classes built on top of [Eloquent ORM](https://laravel.com/docs/master/eloquent) (from [Laravel](http://laravel.com) framework), that provides a fluent interface to connect and get data directly from a [WordPress](http://wordpress.org) database.
 
 You can use WordPress as the backend (administration panel) or CMS, for inserting posts, custom types, etc, and any other PHP app in the other side querying those data (as a Model layer). It's easier to use Corcel with Laravel, but you're free to use it with any PHP project that uses Composer.
@@ -59,6 +62,7 @@ You can use WordPress as the backend (administration panel) or CMS, for insertin
  9.0.x    | `^6.0.0`
  10.0.x   | `^7.0.0`
  11.0.x   | `^8.0.0`
+ 12.0.x, 13.0.x | `^9.0.0`
 
 # <a id="installing-corcel"></a> Installing Corcel
 

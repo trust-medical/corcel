@@ -8,8 +8,8 @@
 [![Test Coverage](https://codeclimate.com/github/corcel/corcel/badges/coverage.svg)](https://codeclimate.com/github/corcel/corcel/coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3dc8135eee70ae7da325/maintainability)](https://codeclimate.com/github/corcel/corcel/maintainability)
 
-> **trust-medical fork:** upstream の PR #659 を取り込み Laravel 13 に対応した fork です (Laravel 12 / 13 両対応、パッケージ名は `jgrossi/corcel` のまま)。
-> 上流 (corcel/corcel) が Laravel 13 対応版をリリースしたら、公式版へ戻してください。
+> **trust-medical fork:** includes upstream PR #659 for Laravel 13 compatibility (supports both Laravel 12 and 13; the package name remains `jgrossi/corcel`).
+> Once upstream (corcel/corcel) releases an official Laravel 13 version, switch back to it.
 
 Corcel is a collection of PHP classes built on top of [Eloquent ORM](https://laravel.com/docs/master/eloquent) (from [Laravel](http://laravel.com) framework), that provides a fluent interface to connect and get data directly from a [WordPress](http://wordpress.org) database.
 
